@@ -1,5 +1,5 @@
 
-exports.up = (knex) => {
+exports.up = functionn (knex) {
 
     return knex.schema.createTable('ongs', (table) => {        
         table.string('id').primary();
@@ -12,6 +12,6 @@ exports.up = (knex) => {
       });      
 };
 
-exports.down = (knex) => {
+exports.down = function (knex) {
     return knex.schema.dropTable('ongs');
 };

@@ -6,7 +6,7 @@ const app = express();
 const port = 3333;
 
 app.use(cors({
-    origin: '127.0.0.1'
+  //  origin: '127.0.0.1'
 }));
 
 app.use(express.json());
